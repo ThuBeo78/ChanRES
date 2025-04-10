@@ -1,0 +1,161 @@
+{
+  "id": "9c58e903-7e3d-46ca-9c91-00061133e174",
+  "version": "2.0",
+  "name": "tc-test",
+  "url": "https://shopee.vn",
+  "tests": [{
+    "id": "7ef81b2a-7142-4b70-99cf-eb06e3c6413e",
+    "name": "tc-timkiem",
+    "commands": [{
+      "id": "945da20c-dba4-4bc0-a883-ca370e382786",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7ca7739-9095-4e2b-a9d8-c143f24c704f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b684595a-6814-481b-bd17-f84cb2288805",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='sll2-ShopeeHeaderWithSearch']/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d774f826-20e6-4eb9-a649-392da8ef1175",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.shopee-searchbar-hints__history-entry:nth-child(2) > .shopee-searchbar-hints__history-entry__text",
+      "targets": [
+        ["css=.shopee-searchbar-hints__history-entry:nth-child(2) > .shopee-searchbar-hints__history-entry__text", "css:finder"],
+        ["xpath=//div[@id='shopee-searchbar-listbox']/a[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7d86b1a-313b-4f78-821e-bac70a91a35f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.shopee-searchbar-hints__history-entry:nth-child(2) > .shopee-searchbar-hints__history-entry__text",
+      "targets": [
+        ["css=.shopee-searchbar-hints__history-entry:nth-child(2) > .shopee-searchbar-hints__history-entry__text", "css:finder"],
+        ["xpath=//div[@id='shopee-searchbar-listbox']/a[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8ef3b51-48a3-4f7e-9b3d-c73c2381baa7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Shopee bao ship 0Đ - Đăng ký ngay!",
+      "targets": [
+        ["linkText=Shopee bao ship 0Đ - Đăng ký ngay!", "linkText"],
+        ["css=.shopee-searchbar-hints__search-prefill", "css:finder"],
+        ["xpath=//div[@id='shopee-searchbar-listbox']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopee.vn/welcome-package')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shopee bao ship 0Đ - Đăng ký ngay!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bea0894-437e-49e9-885e-aab080753ed2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='Vòng cổ cho cún']", "xpath:attributes"],
+        ["xpath=//div[@id='sll2-ShopeeHeaderWithSearch']/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nhẫn"
+    }, {
+      "id": "9aa2926c-0313-4303-a2dd-2c8fc0ec39f3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='Vòng cổ cho cún']", "xpath:attributes"],
+        ["xpath=//div[@id='sll2-ShopeeHeaderWithSearch']/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "10faa5b4-43e5-49f2-b175-61c044c85ba8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,266.6666564941406)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "55cf20b7-5729-4f4d-92a4-8d403d2f571b",
+    "name": "tc-timkiem-nt",
+    "commands": [{
+      "id": "de6f476c-02ef-4ca1-9954-5a2a2b7a0ae8",
+      "comment": "",
+      "command": "open",
+      "target": "https://shopee.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31ab5474-631d-4ee5-bf8f-989fdc9daba3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='sll2-ShopeeHeaderWithSearch']/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "993d6cb0-c47f-486d-bb8b-a8e4a3dbfb89",
+      "comment": "",
+      "command": "type",
+      "target": "css=.shopee-searchbar-input__input",
+      "targets": [
+        ["css=.shopee-searchbar-input__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='sll2-ShopeeHeaderWithSearch']/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nhẫn"
+    }, {
+      "id": "2f9edce7-7ce5-4fb3-943b-216f7dd736fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='sll2-ShopeeHeaderWithSearch']/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "89c480bc-c027-4b4a-9b03-7bd35b69964e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7ef81b2a-7142-4b70-99cf-eb06e3c6413e"]
+  }],
+  "urls": ["https://shopee.vn/"],
+  "plugins": []
+}
